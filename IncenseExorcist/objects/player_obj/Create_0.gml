@@ -6,8 +6,8 @@ tilemap = layer_tilemap_get_id("Tiles_Col");
 
 facing = 0;
 
-hp = 1;
-hp_total = 10;
+hp = 600;
+hp_total = hp;
 
 level = 1;
 
