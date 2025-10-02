@@ -19,7 +19,10 @@
   "ResourceOrderSettings":[
     {"name":"attack_obj","order":2,"path":"objects/attack_obj/attack_obj.yy",},
     {"name":"enemy_obj","order":1,"path":"objects/enemy_obj/enemy_obj.yy",},
+    {"name":"enemydeath_obj","order":4,"path":"objects/enemydeath_obj/enemydeath_obj.yy",},
     {"name":"parent_enemy_obj","order":3,"path":"objects/parent_enemy_obj/parent_enemy_obj.yy",},
+    {"name":"parent_player_obj","order":6,"path":"objects/parent_player_obj/parent_player_obj.yy",},
+    {"name":"playerattack_obj","order":5,"path":"objects/playerattack_obj/playerattack_obj.yy",},
     {"name":"background_1_spr","order":10,"path":"sprites/background_1_spr/background_1_spr.yy",},
     {"name":"enemy_1_chase_spr","order":5,"path":"sprites/enemy_1_chase_spr/enemy_1_chase_spr.yy",},
     {"name":"enemy_1_death_spr","order":9,"path":"sprites/enemy_1_death_spr/enemy_1_death_spr.yy",},

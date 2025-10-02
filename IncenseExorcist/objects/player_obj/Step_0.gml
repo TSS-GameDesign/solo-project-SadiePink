@@ -37,16 +37,12 @@ sprite_index = player_idle_spr;
 
 //Attack (I wanted it to be when the left mouse button is clicked but for now, space)
 if keyboard_check_pressed(vk_space)
-{
-	
-	playerstate = 3;
-	move_speed = 0;
-	_hor = 0;
+{	
 	var _inst = instance_create_depth(x,y,depth, attack_obj);
 	_inst.image_angle = facing;
 	_inst.damage *= damage;
-	sprite_index = player_attack_spr;
-	speed = 0;
+	playerstate = 3;
+	instance_change(playerattack_obj, true)
 }
 
 if sprite_index = player_attack_spr
