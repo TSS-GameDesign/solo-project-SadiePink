@@ -1,4 +1,4 @@
-if (instance_exists(parent_player_obj) && distance_to_object(parent_player_obj)) < distance_to_player
+if (instance_exists(parent_player_obj) && distance_to_object(parent_player_obj) < distance_to_player)
 {
 	enemystate = 1;
 	sprite_index = enemy_1_spotted_spr;

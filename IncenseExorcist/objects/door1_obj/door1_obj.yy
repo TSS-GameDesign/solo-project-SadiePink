@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"player_obj",
+  "%Name":"door1_obj",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"player_obj",
+  "name":"door1_obj",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"parent_player_obj",
-    "path":"objects/parent_player_obj/parent_player_obj.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,13 +26,15 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"room_entering","filters":[],"listItems":[],"multiselect":false,"name":"room_entering","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"player_attack_spr",
-    "path":"sprites/player_attack_spr/player_attack_spr.yy",
+    "name":"door1_spr",
+    "path":"sprites/door1_spr/door1_spr.yy",
   },
   "spriteMaskId":null,
   "visible":true,
