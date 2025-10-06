@@ -50,8 +50,3 @@ if sprite_index = player_attack_spr
 	_hor = 0; 
 }
 
-//Death
-if (hp <= 0)
-{
-	room_restart();
-}
