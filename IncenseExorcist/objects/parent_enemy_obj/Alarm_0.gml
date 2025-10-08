@@ -10,7 +10,7 @@ else
 {
 	enemystate = 0;
 	target_x = random_range(xstart - 75, xstart + 75);
-	target_y = random_range(ystart - 75, ystart + 75);
+	target_y = random_range(ystart - 50, ystart + 50);
 	sprite_index = enemy_1_idle_spr
 }
 

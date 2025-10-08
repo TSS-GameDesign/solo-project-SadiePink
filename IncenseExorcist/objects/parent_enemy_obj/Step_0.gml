@@ -13,5 +13,6 @@ move_and_collide(_hor * move_speed, _ver * move_speed, [parent_enemy_obj]);
 if (hp = 0)
 {
 	enemystate = 4;
-	sprite_index = enemy_1_death_spr
+	sprite_index = enemy_1_death_spr;
+	global.score += 100;
 }
