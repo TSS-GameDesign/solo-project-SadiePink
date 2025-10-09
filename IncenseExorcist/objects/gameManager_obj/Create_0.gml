@@ -11,3 +11,6 @@ if !variable_global_exists("hp")
 global.hp = 600;
 global.hp_total = global.hp;
 }
+else{
+	
+}

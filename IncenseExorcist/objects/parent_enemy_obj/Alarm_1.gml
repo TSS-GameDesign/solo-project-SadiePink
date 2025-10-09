@@ -1,4 +1,3 @@
-
 if (hp <= 0)
 {
 	sprite_index = enemy_1_death_spr
