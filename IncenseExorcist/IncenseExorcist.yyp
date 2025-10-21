@@ -51,6 +51,7 @@
     {"id":{"name":"parent_player_obj","path":"objects/parent_player_obj/parent_player_obj.yy",},},
     {"id":{"name":"player_obj","path":"objects/player_obj/player_obj.yy",},},
     {"id":{"name":"playerattack_obj","path":"objects/playerattack_obj/playerattack_obj.yy",},},
+    {"id":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},},
     {"id":{"name":"rm_startscreen","path":"rooms/rm_startscreen/rm_startscreen.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
@@ -58,6 +59,7 @@
     {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"id":{"name":"background_1_spr","path":"sprites/background_1_spr/background_1_spr.yy",},},
     {"id":{"name":"background_2_spr","path":"sprites/background_2_spr/background_2_spr.yy",},},
+    {"id":{"name":"background_lose_spr","path":"sprites/background_lose_spr/background_lose_spr.yy",},},
     {"id":{"name":"button_spr","path":"sprites/button_spr/button_spr.yy",},},
     {"id":{"name":"door1_spr","path":"sprites/door1_spr/door1_spr.yy",},},
     {"id":{"name":"enemy_1_chase_spr","path":"sprites/enemy_1_chase_spr/enemy_1_chase_spr.yy",},},
@@ -82,6 +84,7 @@
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
+    {"roomId":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
