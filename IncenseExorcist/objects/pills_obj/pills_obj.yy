@@ -1,13 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"parent_player_obj",
+  "%Name":"pills_obj",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"parent_enemy_obj","path":"objects/parent_enemy_obj/parent_enemy_obj.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"pills_obj","path":"objects/pills_obj/pills_obj.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"parent_player_obj",
+  "name":"pills_obj",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"pills_spr",
+    "path":"sprites/pills_spr/pills_spr.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
