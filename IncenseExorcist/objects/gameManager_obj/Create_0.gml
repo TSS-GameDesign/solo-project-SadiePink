@@ -14,3 +14,5 @@ global.hp_total = global.hp;
 else{
 	
 }
+
+global.gui_visibility = 1.0;

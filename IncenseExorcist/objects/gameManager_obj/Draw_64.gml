@@ -14,10 +14,9 @@ var _health_barw = _barw * (global.hp / global.hp_total);
 
 if variable_global_exists("hp")
 {
-draw_sprite_stretched(healthbar_spr, 0, _dx, _dy, _barw, _barh);
-draw_sprite_stretched_ext(healthbar_spr, 1, _dx, _dy, _health_barw, _barh, c_white, 0.6);
+draw_sprite_stretched_ext(healthbar_spr, 0, _dx, _dy, _barw, _barh, c_white, global.gui_visibility);
+draw_sprite_stretched_ext(healthbar_spr, 1, _dx, _dy, _health_barw, _barh, c_white, global.gui_visibility);
 
-draw_text(_dx + _barw / 2, _dy + _barh / 2, "S A N I T Y");
 }
 
 
@@ -36,8 +35,22 @@ draw_set_valign(fa_middle);
 //Score bar
 if variable_global_exists("score")
 {
-draw_sprite_stretched(scorebar_spr, 0, _sx, _sy, _barwi, _barhe);
-draw_sprite_stretched_ext(scorebar_spr, 1, _sx, _sy, _barwi, _barhe, c_black, 0.6);
+draw_sprite_stretched_ext(scorebar_spr, 0, _sx, _sy, _barwi, _barhe, c_white, global.gui_visibility);
+draw_sprite_stretched_ext(scorebar_spr, 1, _sx, _sy, _barwi, _barhe, c_white, global.gui_visibility);
 
-draw_text_transformed(_sx + _barwi / 2, _sy + _barhe / 2, "SCORE: " + string(global.score),1.49, 1.49, 0.0);
 }
+
+if (instance_exists(lose_obj)) //Will make the visibility disappear
+{
+	global.gui_visibility = 0
+}
+else 
+{
+	global.gui_visibility = 1.0
+	draw_text(_dx + _barw / 2, _dy + _barh / 2, "S A N I T Y");
+	draw_text_transformed(_sx + _barwi / 2, _sy + _barhe / 2, "SCORE: " + string(global.score),1.49, 1.49, 0.0);
+}
+
+
+	
+	
