@@ -40,7 +40,7 @@ draw_sprite_stretched_ext(scorebar_spr, 1, _sx, _sy, _barwi, _barhe, c_white, gl
 
 }
 
-if (instance_exists(lose_obj)) //Will make the visibility disappear
+if (instance_exists(lose_obj)) or (room = rm_win) //Will make the visibility disappear
 {
 	global.gui_visibility = 0
 }
