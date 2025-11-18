@@ -14,5 +14,5 @@ if (hp = 0)
 {
 	enemystate = 4;
 	sprite_index = enemy_1_death_spr;
-	global.score += 100;
+	
 }

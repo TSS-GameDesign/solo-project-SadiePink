@@ -4,3 +4,10 @@ if (global.hp <= 0)
 	instance_create_layer(x,y,"Instances", lose_obj)
 }
 
+if room = rm_win
+{
+	with (win_obj) win = true;
+	instance_create_layer(x,y,"Instances", win_obj)
+}
+	
+
