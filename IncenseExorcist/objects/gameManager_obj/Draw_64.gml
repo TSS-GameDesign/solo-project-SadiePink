@@ -51,6 +51,34 @@ else
 	draw_text_transformed(_sx + _barwi / 2, _sy + _barhe / 2, "SCORE: " + string(global.score),1.49, 1.49, 0.0);
 }
 
+//COMBO STUFF
 
-	
-	
+//Placement and size
+var _kx = 45; //Placement for x
+var _ky = 600; //Placement for y
+var _barwidth = 150; //Bars width
+var _barheight = 150; //Bars height
+
+// Properties
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+
+if variable_global_exists("kills")
+{
+	if global.kills = 0 
+	{
+		draw_sprite_stretched_ext(combo_spr, 0, _kx, _ky, _barwidth, _barheight, c_white, global.gui_visibility)
+	}
+	if global.kills = 1
+	{
+		draw_sprite_stretched_ext(combo_spr, 1, _kx, _ky, _barwidth, _barheight, c_white, global.gui_visibility)
+	}
+	if global.kills = 2
+	{
+		draw_sprite_stretched_ext(combo_spr, 2, _kx, _ky, _barwidth, _barheight, c_white, global.gui_visibility)
+	}
+	if global.kills = 3
+	{
+		draw_sprite_stretched_ext(combo_spr, 3, _kx, _ky, _barwidth, _barheight, c_white, global.gui_visibility)
+	}
+}

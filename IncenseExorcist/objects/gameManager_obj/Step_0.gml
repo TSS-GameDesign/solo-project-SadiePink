@@ -9,5 +9,9 @@ if room = rm_win
 	with (win_obj) win = true;
 	instance_create_layer(x,y,"Instances", win_obj)
 }
-	
 
+if (global.kills > 3)
+{
+	global.kills = 0
+}
+	

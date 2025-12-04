@@ -40,7 +40,7 @@ if keyboard_check_pressed(vk_space)
 {	
 	var _inst = instance_create_depth(x,y,depth, attack_obj);
 	_inst.image_angle = facing;
-	_inst.damage *= damage;
+	global.damage *= global.damage;
 	playerstate = 3;
 	instance_change(playerattack_obj, true)
 }

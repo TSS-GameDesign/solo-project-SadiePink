@@ -1,1 +1,3 @@
+//When the enemy is destroyed...
 global.score += 1000;
+global.kills += 1;

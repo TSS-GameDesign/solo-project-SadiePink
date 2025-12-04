@@ -16,3 +16,19 @@ else{
 }
 
 global.gui_visibility = 1.0;
+
+if !variable_global_exists("kills")
+{
+	global.kills = 0;
+}
+else{
+	
+}
+
+if !variable_global_exists("damage")
+{
+	global.damage = 0.5;
+}
+else{
+	
+}

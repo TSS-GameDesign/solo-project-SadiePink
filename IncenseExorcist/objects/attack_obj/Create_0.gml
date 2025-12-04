@@ -1,1 +1,1 @@
-damage = .5;
+global.damage = global.damage;
