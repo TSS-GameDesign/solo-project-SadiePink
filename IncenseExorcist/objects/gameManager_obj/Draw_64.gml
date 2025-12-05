@@ -54,10 +54,10 @@ else
 //COMBO STUFF
 
 //Placement and size
-var _kx = 45; //Placement for x
-var _ky = 600; //Placement for y
-var _barwidth = 150; //Bars width
-var _barheight = 150; //Bars height
+var _kx = 35; //Placement for x
+var _ky = 550; //Placement for y
+var _barwidth = 200; //Bars width
+var _barheight = 200; //Bars height
 
 // Properties
 draw_set_halign(fa_center);

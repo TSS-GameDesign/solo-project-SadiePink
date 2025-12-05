@@ -1,6 +1,6 @@
 Attack facing direction left more than once
-attack animation render below doors / objects
-Player gets stuck while walking into a corner
+attack animation render below doors / objects (FIXED!)
+Player gets stuck while walking into a corner (FIXED!)
 
 Hair color changes when moving (dont worry about for now)
 
